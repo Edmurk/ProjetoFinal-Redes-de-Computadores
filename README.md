@@ -25,14 +25,13 @@ Implementar uma rede empresarial completa utilizando Linux e Mikrotik, com os se
 
 ### Tabela de Endereçamento dos Dispositivos (DHCP)
 
-| Nome            | Sistema Operacional             | IP               | Função Principal                     |
+| Nome                  | Sistema Operacional       | IP               | Função Principal                     |
 |-----------------------|---------------------------|------------------|--------------------------------------|
 | MK01                  | Mikrotik RouterOS         | 192.168.80.1     | Gateway, DHCP Server, NAT, DNS       |
 | Linux-Apache          | Ubuntu                    | 192.168.80.253   | Servidor Apache                      |
 | Linux-FTP             | Ubuntu                    | 192.168.80.252   | Servidor FTP                         |
-| Client-Linux          | Ubuntu                    | 192.168.80.xx    | Teste NFS e FTP                      |
-| Client-Linux          | Ubuntu                    | 192.168.80.xx    | Teste NFS e FTP                      |
-| Client-Linux          | Ubuntu                    | 192.168.80.xx    | Teste NFS e FTP                      |
+| Client-NFS            | Ubuntu                    | 192.168.80.251    | Servidor NFS                         |
+| Client-Linux (DHCP)   | Ubuntu                    | 192.168.80.254   | Teste NFS e FTP                      |
 
 
 ---
@@ -49,7 +48,12 @@ sudo systemctl enable apache2
 ### Servidor FTP  
 ```bash
 sudo apt update
-sudo apt install vsftpd
+sudo apt install 
 
 ```
 
+### Servidor NFS  
+```bash
+sudo apt update
+sudo apt install 
+```
