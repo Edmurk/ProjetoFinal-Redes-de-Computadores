@@ -3,6 +3,7 @@
 **Alunos:** Edvaldo Abreu e Iasmyn Severo  
 **Data de entrega:** 02 de dezembro de 2025  
 **Repositório GitHub:** https://github.com/Edmurk/ProjetoFinal-Redes-de-Computadores  
+**Link para download da VM:** https://drive.google.com/file/d/11RvtmEU6Zgfx2KdX_MB7osqAOsUQY2QK/view?usp=sharing   
 **Ambiente utilizado:** EVE-NG Community (VM fornecida pela Redesbrasil) rodando no VMware Workstation  
 
 ---
