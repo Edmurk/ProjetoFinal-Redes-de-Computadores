@@ -35,6 +35,9 @@ Implementar uma rede empresarial completa utilizando Linux e Mikrotik, com os se
 | Client-NFS            | Ubuntu                    | 192.168.80.251   | Servidor NFS                         |
 | Client-Linux          | Ubuntu                    | 192.168.80.254   | Teste NFS e FTP                      |
 
+**Servidor DNS utilizado:** 8.8.8.8 e 1.1.1.1
+**Máscara:** 255.255.255.0 - CIDR /24
+**Hosts Utilizaveis:** 254
 
 ---
 
