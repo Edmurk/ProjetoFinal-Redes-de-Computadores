@@ -5,6 +5,7 @@
 **Repositório GitHub:** https://github.com/Edmurk/ProjetoFinal-Redes-de-Computadores  
 **Link para download da VM:** https://drive.google.com/file/d/11RvtmEU6Zgfx2KdX_MB7osqAOsUQY2QK/view?usp=sharing   
 **Ambiente utilizado:** EVE-NG Community (VM fornecida pela Redesbrasil) rodando no VMware Workstation  
+**⚠️A VM precisa ser inciada com um cabo de rede conectado na porta Ethernet do computador⚠️**
 
 ---
 
@@ -32,7 +33,7 @@ Implementar uma rede empresarial completa utilizando Linux e Mikrotik, com os se
 | Linux-Apache          | Ubuntu                    | 192.168.80.253   | Servidor Apache                      |
 | Linux-FTP             | Ubuntu                    | 192.168.80.252   | Servidor FTP                         |
 | Client-NFS            | Ubuntu                    | 192.168.80.251   | Servidor NFS                         |
-| Client-Linux (DHCP)   | Ubuntu                    | 192.168.80.254   | Teste NFS e FTP                      |
+| Client-Linux          | Ubuntu                    | 192.168.80.254   | Teste NFS e FTP                      |
 
 
 ---
