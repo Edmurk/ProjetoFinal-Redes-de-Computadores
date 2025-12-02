@@ -32,7 +32,7 @@ Implementar uma rede empresarial completa utilizando Linux e Mikrotik, com os se
 | MK01                  | Mikrotik RouterOS         | 192.168.80.1     | Gateway, DHCP Server, NAT, DNS       |
 | Linux-Apache          | Ubuntu                    | 192.168.80.253   | Servidor Apache                      |
 | Linux-FTP             | Ubuntu                    | 192.168.80.252   | Servidor FTP                         |
-| Client-NFS            | Ubuntu                    | 192.168.80.251   | Servidor NFS                         |
+| Linux-NFS            | Ubuntu                    | 192.168.80.251   | Servidor NFS                         |
 | Client-Linux          | Ubuntu                    | 192.168.80.254   | Teste NFS e FTP                      |
 
 **Servidor DNS utilizado:** 8.8.8.8 e 1.1.1.1
